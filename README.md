@@ -23,6 +23,7 @@ OmniVoice is a state-of-the-art massively multilingual zero-shot text-to-speech 
 ## Key Features
 
 - **600+ Languages Supported**: The broadest language coverage among zero-shot TTS models ([full list](docs/languages.md)).
+- **13 Arabic Dialects (Lahgtna)**: Egyptian, Saudi, Moroccan, Bahraini, Sudanese, Iraqi, Lebanese, Syrian, Libyan, Palestinian, Tunisian, Algerian, and Yemeni.
 - **Voice Cloning**: State-of-the-art voice cloning quality.
 - **Voice Design**: Control voices via assigned speaker attributes (gender, age, pitch, dialect/accent, whisper, etc.).
 - **Fine-grained Control**: Non-verbal symbols (e.g., `[laughter]`) and pronunciation correction via pinyin or phonemes.
@@ -151,7 +152,7 @@ sf.write("out.wav", audio[0], 24000)
 Describe the desired voice with speaker attributes — no reference audio needed.
 Supported attributes: **gender** (male/female), **age** (child to elderly),
 **pitch** (very low to very high), **style** (whisper), **English accent**
-(American, British, etc.), and **Chinese dialect** (四川话, 陕西话, etc.).
+(American, British, etc.), **Chinese dialect** (四川话, 陕西话, etc.), and **Arabic dialect** (Egyptian Lahgtna, Saudi Lahgtna, etc.).
 Attributes are comma-separated and freely combinable across categories.
 
 ```python
